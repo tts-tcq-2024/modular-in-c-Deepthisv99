@@ -7,6 +7,6 @@ void PrintColorCodingManual() {
         ColorPair colorPair = GetColorFromPairNumber(i);
         char colorPairNames[16];
         ColorPairToString(&colorPair, colorPairNames);
-        printf("%d\t\t%s\n", i, colorPairNames);
+        printf("%d\t\t\t%s\n", i, colorPairNames);
     }
 }
